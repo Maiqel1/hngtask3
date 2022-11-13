@@ -179,7 +179,7 @@ position: fixed;
 
 height: 326px;
 /* left: 420px; */
-top: 347px;
+top: 147px;
 left: 27%;
 background: #FFFFFF;
 border-radius: 16px;
@@ -230,12 +230,12 @@ border-radius: 12px;
   }
 
   .wallet{
-    position: absolute;
+    position: fixed;
     /* width: 600px; */
     
     height: 326px;
     /* left: 420px; */
-    top: 347px;
+    top: 127px;
     left: 19%;
     background: #FFFFFF;
     border-radius: 16px;
