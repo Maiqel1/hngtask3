@@ -202,7 +202,6 @@ align-items: center;
 padding: 12px 20px;
 height: 68px;
 
-background: #F8F9FA;
 
 border: 1px solid #CFD8DC;
 border-radius: 12px;
@@ -217,13 +216,20 @@ border: 1px solid #CFD8DC;
 border-radius: 12px;
 }
 
+.token-button:hover {
+  background: #F8F9FA;
+} .token-button2:hover {
+background: #F8F9FA;
+
+}
+
 .token-button p{
   font-size: 20px;
 }
 
 
 
-@media screen and (min-width: 350px) and (max-width: 790px){
+@media screen and (min-width: 250px) and (max-width: 790px){
   header h1 {
    
     font-size: 36px;
@@ -236,7 +242,7 @@ border-radius: 12px;
     height: 326px;
     /* left: 420px; */
     top: 127px;
-    left: 19%;
+    left: 10%;
     background: #FFFFFF;
     border-radius: 16px;
 

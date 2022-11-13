@@ -49,7 +49,7 @@ function Navbar() {
    <div  >
     {overlayState && 
    <div className='overlay'>
-        <div className="wallet col-8 col-md-6">
+        <div className="wallet col-10 mx-auto col-md-6">
             <div className="mt-4"></div>
             <div className="d-flex justify-content-around">
                 <h3 className="justify-content-start ">Connect Wallet</h3>
