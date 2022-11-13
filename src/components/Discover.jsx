@@ -3,7 +3,7 @@ import discover from '../assets/img/discover.png'
 function Discover() {
   return (
     <div className="discover mt-5 pb-5">
-        <div className="row container mx-auto">
+        <div className="row d-flex flex-column-reverse flex-md-row container mx-auto">
             <section className='col-md-6'>
             <div className="space4 d-none d-md-block"></div>
             <div style={{height:"50px"}} className='d-block d-md-none'></div>
