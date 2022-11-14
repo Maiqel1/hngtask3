@@ -20,7 +20,7 @@ function Header() {
 
             <form action=""  className='d-flex'>
                 <input type="text" placeholder='Search for location...' />
-                <button>Get Started</button>
+                <button className='btn btn-outline-white'>Get Started</button>
             </form>
         </section>
 
