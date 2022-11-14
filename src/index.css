@@ -229,6 +229,22 @@ background: #F8F9FA;
 
 
 
+/* Frame 13 */
+.location{
+  box-sizing: border-box;
+  height: 45px;
+
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+border: 1px solid #B4B4B4;
+border-radius: 8px;
+}
+
+
+.location p{
+  font-size: 16pxs;
+}
+
+
 @media screen and (min-width: 250px) and (max-width: 790px){
   header h1 {
    
@@ -247,4 +263,10 @@ background: #F8F9FA;
     border-radius: 16px;
 
   }
+
+  /* .nav-button{
+    max-width: 140px;
+    padding: 0;
+    height: 55px;
+  } */
 }

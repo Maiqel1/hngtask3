@@ -1,12 +1,6 @@
-// import Navbar from "../src/components/Navbar"
-// import Header from "../src/components/Header"
-// import Tokens from "../src/components/Tokens"
-// import CardSection from "../src/components/CardSection"
-// import Discover from "../src/components/Discover"
-// import Footer from "../src/components/Footer"
 import {BrowserRouter as Router, Routes, Route,} from 'react-router-dom'
-import Home from './components/Home';
-import Place from './components/Place';
+import Home from '../src/pages/Home';
+import Place from '../src/pages/Place';
 
 
 function App() {

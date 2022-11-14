@@ -33,15 +33,16 @@ function Navbar() {
           <Link className="nav-link text-black ms-0 ms-lg-4" to={"/place"}>Place to stay</Link>
         </li>
         <li className="nav-item">
-            <a className="nav-link text-black ms-0 ms-lg-4">NFTs</a>
+          
+            <a href='#' className="nav-link text-black ms-0 ms-lg-4">NFTs</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-black ms-0 ms-lg-4">Community</a>
+          <a href='#' className="nav-link text-black ms-0 ms-lg-4">Community</a>
         </li>
       </ul>
 
     </div>
-    <button className="btn btn-sm nav-button text-white" onClick={toggleOverlay} type="submit">Connect wallet</button>
+    <button className="btn nav-button text-white" onClick={toggleOverlay} type="submit">Connect wallet</button>
   </div>
 </nav>
 
@@ -52,21 +53,27 @@ function Navbar() {
             <div className="mt-4"></div>
             <div className="d-flex justify-content-around">
                 <h3 className="justify-content-start ">Connect Wallet</h3>
-                <a onClick={toggleOverlay} className="justify-content-end close">X</a>
+                <a onClick={toggleOverlay} href="/" className="justify-content-end close">X</a>
 
             </div>
             <div className="line w-full mt-3"></div>
 
+            
             <div className='container-fluid' >
                 <p className='mt-4 ms-4'>Choose your preferred wallet :</p>
+                <a href="#">
                 <div className='token-button d-flex justify-content-between'>
                     <img src={metamask} className='img-fluid' alt="" />
                     <img src={tokenbutton} className='img-fluid' alt="" />
                 </div>
+                </a>
+                
+                <a href="#">
                 <div className='token-button2 d-flex justify-content-between mt-3'>
                     <img src={walletconnect} className='img-fluid' alt="" />
                     <img src={tokenbutton} className='img-fluid ' alt="" />
                 </div>
+                </a>
             </div>
         </div>
     </div>}

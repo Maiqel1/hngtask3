@@ -2,7 +2,7 @@ import Rating from '../../assets/img/rating.png'
 
 function Card({children}) {
   return (
-    <div className="customCard h-full">
+    <div className="customCard h-full pb-3">
         <div className='text-center'>
           {children}
         </div>
@@ -14,7 +14,7 @@ function Card({children}) {
 
         <div className="d-flex justify-content-between">
         <p className="ps-2 ">"2345km away"</p>
-        <p className="pe-2">available for 2weeks stay</p>
+        <p className="pe-1 ms-1">available for 2weeks stay</p>
         </div>
 
         <div className="d-flex justify-content-start">

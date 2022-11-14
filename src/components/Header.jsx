@@ -24,8 +24,8 @@ function Header() {
             </form>
         </section>
 
-        <section className='col-10 col-md-5 col-lg-5 mx-auto ms-md-5 ps-0 ps-md-5 mt-5 mt-md-0'>
-            <img src={HeaderImg} className='img-fluid' alt="" />
+        <section className='col-10 col-md-6 col-lg-5 mx-auto  mt-5 mt-md-4'>
+            <img src={HeaderImg} className='img-fluid ps-3' alt="" />
         </section>
        </div>
     </div>

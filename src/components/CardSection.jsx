@@ -39,7 +39,7 @@ function CardSection() {
 
         </div>
 
-        <div className="row d-flex justify-content-center mt-4 mx-auto" >
+        <div className="row d-flex justify-content-center mt-1 mt-md-4 mx-auto" >
         <div className="col-10 col-md-6 col-lg-3 mt-3">
         <Card>
             <img src={card1x} className='img-fluid mx-auto ps-2 pe-2 pt-2' alt="" />
