@@ -6,7 +6,7 @@ import instagram from '../assets/img/instagram.png'
 function Footer() {
   return (
     <footer className=" footer p-5">
-        <div className="row footer mt-5">
+        <div className="row  mt-5">
             <section className=" col-md-3">
                 <ul>
                     <li><img src={footerLogo} className='img-fluid' alt="" /></li>
@@ -19,7 +19,7 @@ function Footer() {
                 </ul>
             </section>
             <section className=" col-md-3 mt-3 mt-md-0">
-                    <ul className='text-center'>
+                    <ul className='col-6 mx-auto'>
                         <li><h4>Community</h4></li>
                         <li><a href='#'>NFT</a></li>
                         <li><a href='#'>Tokens</a></li>
@@ -29,7 +29,7 @@ function Footer() {
                     </ul>
             </section>
             <section className=" col-md-3 mt-3 mt-md-0 ">
-                <ul className='text-center'>
+                <ul className=' col-6 mx-auto'>
                     <li><h4>Places</h4></li>
                     <li><a href='#'>Castle</a></li>
                     <li><a href='#'>Farms</a></li>
@@ -38,7 +38,7 @@ function Footer() {
                 </ul>
             </section>
             <section className=" col-md-3 mt-3 mt-md-0">
-                    <ul className='text-center'>
+                    <ul className='col-6 mx-auto'>
                     <li><h4>About us</h4></li>
                     <li><a href='#'>Road map</a></li>
                     <li><a href='#'>Creators</a></li>
