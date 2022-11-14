@@ -20,7 +20,7 @@ function Footer() {
             </section>
             <section className=" col-md-3 mt-3 mt-md-0">
                     <ul className='col-6 mx-auto'>
-                        <li><h4>Community</h4></li>
+                        <li><h4 >Community</h4></li>
                         <li><a href='#'>NFT</a></li>
                         <li><a href='#'>Tokens</a></li>
                         <li><a href='#'>Landlords</a></li>
@@ -39,7 +39,7 @@ function Footer() {
             </section>
             <section className=" col-md-3 mt-3 mt-md-0">
                     <ul className='col-6 mx-auto'>
-                    <li><h4>About us</h4></li>
+                    <li><h4 className=''>About us</h4></li>
                     <li><a href='#'>Road map</a></li>
                     <li><a href='#'>Creators</a></li>
                     <li><a href='#'>Career</a></li>
