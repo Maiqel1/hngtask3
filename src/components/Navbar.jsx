@@ -18,12 +18,12 @@ function Navbar() {
     <div className="container">
         <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
-    <img src={Logo} alt="" className='img-fluid' />
+    <img src={Logo} alt="" className='img-fluid col-4' />
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-      <ul className="navbar-nav mb-2 mb-lg-0 ">
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav mb-2 mb-lg-0 mx-auto ">
           
           <li className="nav-item">
           <Link className="nav-link text-black" aria-current="page" to={"/"} >Home</Link>
@@ -39,10 +39,9 @@ function Navbar() {
           <a className="nav-link text-black ms-0 ms-lg-4">Community</a>
         </li>
       </ul>
-      <form className="d-flex" role="search">
-        <button className="btn nav-button text-white" onClick={toggleOverlay} type="submit">Connect wallet</button>
-      </form>
+
     </div>
+    <button className="btn btn-sm nav-button text-white" onClick={toggleOverlay} type="submit">Connect wallet</button>
   </div>
 </nav>
 
