@@ -2,7 +2,7 @@
 
 *{
   font-family: Red Rose;
-  list-style: none;
+   list-style: none;
 }
 
 
@@ -149,6 +149,7 @@ background-clip: text;
 
 }
 
+
 .footer p{
   font-family: 'Red Rose';
   font-style: normal;
@@ -241,8 +242,10 @@ border-radius: 8px;
 
 
 .location p{
-  font-size: 16pxs;
+  font-size: 16px;
 }
+
+
 
 
 @media screen and (min-width: 250px) and (max-width: 790px){
