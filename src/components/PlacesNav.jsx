@@ -5,15 +5,15 @@ function PlacesNav() {
   return (
     <div className="container mt-5 ms-0 ms-md-5 ">
 
-<div class="scrollmenu ms-0 ms-md-5 ps-0 ps-md-5">
-  <a href="ms-1 ms-md-5">Restaurant</a>
-  <a href="ms-1 ms-md-5">Cottage</a>
-  <a href="ms-1 ms-md-5">Castle</a>
-  <a href="ms-1 ms-md-5">Fantasy City</a>
-  <a href="ms-1 ms-md-5">Beach</a>
-  <a href="ms-1 ms-md-5">Cabins</a>
-  <a href="ms-1 ms-md-5">Off-grid</a>
-  <a href="ms-1 ms-md-5">Farm</a>
+<div class="scrollmenu ms-0 ms-md-3 ps-0 ps-md-5">
+  <a className="ms-1 ms-md-3" href='#'>Restaurant</a>
+  <a className="ms-1 ms-md-3" href='#'>Cottage</a>
+  <a className="ms-1 ms-md-3" href='#'>Castle</a>
+  <a className="ms-1 ms-md-3" href='#'>Fantasy City</a>
+  <a className="ms-1 ms-md-3" href='#'>Beach</a>
+  <a className="ms-1 ms-md-3" href='#'>Cabins</a>
+  <a className="ms-1 ms-md-3" href='#'>Off-grid</a>
+  <a className="ms-1 ms-md-3" href='#'>Farm</a>
     
     <a className='d-inline ms-3 ms-md-4'>
       <div className=' d-inline  location col-4 col-md-2 col-lg-2 p-2'>
