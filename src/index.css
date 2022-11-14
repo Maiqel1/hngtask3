@@ -264,6 +264,7 @@ border-radius: 8px;
 div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
+  overflow-y:hidden;
 }
 
 div.scrollmenu a {
