@@ -12,23 +12,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* NAV STYLING */
+
 .nav-button{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 border-radius: 10px;
 color: #F8F9FA;
 }
 
+/* HEADER STYLING */
 .header h1 {
   font-family: 'Red Rose';
 font-style: normal;
 font-weight: 400;
 font-size: 56px;
 line-height: 140%;
-/* or 78px */
-
 letter-spacing: -0.02em;
-
-/* text black */
 
 color: #434343;
 }
@@ -80,11 +79,10 @@ color: #434343;
   width: 230px;
 }
 
-.token {
-  padding: 10px 100px;
-  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
-}
 
+
+
+/* CUSTOM CARD COMPONENT STYLING */
 .customCard {
   box-sizing: border-box;
   background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
@@ -108,10 +106,12 @@ font-style: normal;
 font-weight: 700;
 font-size: 12px;
 line-height: 13px;
-/* identical to box height, or 110% */
+
 
 color: #434343;
 }
+
+  /* DISCOVER SECTION STYLING */
 
 .discover{
   box-sizing: border-box;
@@ -126,10 +126,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 35px;
-/* or 194% */
-
-
-/* White lin */
 
 background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 -webkit-background-clip: text;
@@ -143,26 +139,41 @@ background-clip: text;
   height: 200px;
 }
 
+/* FOOTER STYLING */
+
 .footer{
   background: #1D1D1E;
   color: #F1F3F9;
 
 }
 
+.footer h4{
+  font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 22px;
+}
 
-.footer p{
+
+.footer a{
   font-family: 'Red Rose';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 35px;
+  text-decoration: none;
   /* or 250% */
   
   color: #F1F3F9;
   
 }
 
+.footer a:hover{
+  color: white;
+}
 
+/* POPUP STYLING */
  .overlay{
   position:fixed;
   top: 0;
@@ -197,6 +208,10 @@ border: 1px solid #CFD8DC;
   text-decoration: none;
 }
 
+.token {
+  padding: 10px 100px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
 .token-button{
   box-sizing: border-box;
 align-items: center;
@@ -230,7 +245,7 @@ background: #F8F9FA;
 
 
 
-/* Frame 13 */
+/*  */
 .location{
   box-sizing: border-box;
   height: 45px;
@@ -267,9 +282,4 @@ border-radius: 8px;
 
   }
 
-  /* .nav-button{
-    max-width: 140px;
-    padding: 0;
-    height: 55px;
-  } */
 }

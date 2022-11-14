@@ -39,10 +39,11 @@ function Navbar() {
         <li className="nav-item">
           <a href='#' className="nav-link text-black ms-0 ms-lg-4">Community</a>
         </li>
+    <button className="btn btn-md nav-button text-white ms-0 ms-md-5" onClick={toggleOverlay} type="submit">Connect wallet</button>
+
       </ul>
 
     </div>
-    <button className="btn nav-button text-white" onClick={toggleOverlay} type="submit">Connect wallet</button>
   </div>
 </nav>
 

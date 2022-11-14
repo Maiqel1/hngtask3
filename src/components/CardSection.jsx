@@ -6,6 +6,7 @@ import card4 from '../assets/img/card4.png'
 
 function CardSection() {
   return (
+    <center>
     <div className="container mx-auto" >
 
             <h1 className="text-center mt-5 pt-1">Inspiration for your next adventure</h1>
@@ -70,6 +71,7 @@ function CardSection() {
         
         
     </div>
+    </center>
   )
 }
 export default CardSection

@@ -18,6 +18,7 @@ import Card from "./shared/Card";
 
 function PlacesCardSection() {
   return (
+    <center>
     <div className="container mb-5">
       <div className="row d-flex justify-content-center mt-5 mx-auto">
         <div className="col-10 col-md-6 col-lg-3 mt-3">
@@ -191,6 +192,7 @@ function PlacesCardSection() {
       </div>
 
     </div>
+    </center>
   );
 }
 export default PlacesCardSection;
