@@ -9,7 +9,7 @@ function PlacesNav() {
             <p className='ms-2 ms-md-4'>Restaurant</p>
             <p className='ms-2 ms-md-4'>Cottage</p>
             <p className='ms-2 ms-md-4'>Castle</p>
-            <p className='ms-2 ms-md-4'>Fantast city</p>
+            <p className='ms-2 ms-md-4'>Fantasy city</p>
             <p className='ms-2 ms-md-4'>Beach</p>
             <p className='ms-2 ms-md-4'>Carbins</p>
             <p className='ms-2 ms-md-4'>Off-grid</p>
